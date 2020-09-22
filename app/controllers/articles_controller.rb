@@ -28,8 +28,8 @@ class ArticlesController < ApplicationController
     raise params.inspect
   end
 
-  get 'articles/:id/edit', to: 'articles#edit', as: :edit_article
-
-  patch 'articles/:id', to: 'articles#update'
+  # get 'articles/:id/edit', to: 'articles#edit', as: :edit_article
+  #
+  # patch 'articles/:id', to: 'articles#update'
 
 end
